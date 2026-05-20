@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support information for Retro Goat Rampage on iPhone.">
+  <title>Support - Retro Goat Rampage</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #fff8de;
+      --muted: #c9c0a0;
+      --paper: #141018;
+      --panel: #21192a;
+      --line: #5d4a62;
+      --gold: #ffd35a;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: ui-rounded, "Avenir Next", Avenir, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+
+    a { color: var(--gold); }
+
+    header {
+      border-bottom: 4px solid #34203d;
+      background:
+        linear-gradient(180deg, rgba(20, 16, 24, 0.55), rgba(20, 16, 24, 0.94)),
+        url("../assets/city.jpg") center / cover no-repeat;
+      padding: 28px clamp(18px, 5vw, 64px) 72px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-bottom: 72px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    nav a {
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 840px;
+      font-size: clamp(2.8rem, 8vw, 5.8rem);
+      line-height: 0.95;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      text-shadow: 0 5px 0 rgba(0,0,0,0.28);
+    }
+
+    .lead {
+      max-width: 720px;
+      color: #fff3c8;
+      font-weight: 700;
+      font-size: 1.15rem;
+    }
+
+    main {
+      width: min(920px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 44px 0 72px;
+    }
+
+    section {
+      border-bottom: 3px solid #34203d;
+      padding: 28px 0;
+    }
+
+    section:last-child { border-bottom: 0; }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    ul {
+      padding-left: 22px;
+      margin: 12px 0 0;
+    }
+
+    li + li { margin-top: 8px; }
+
+    .note {
+      border: 3px solid var(--line);
+      background: var(--panel);
+      padding: 18px;
+      margin-top: 18px;
+      box-shadow: 0 5px 0 #120b15;
+    }
+
+    footer {
+      border-top: 3px solid #34203d;
+      padding: 26px clamp(18px, 5vw, 64px);
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    footer a { color: var(--ink); }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <a href="../">Retro Goat Rampage</a>
+      <a href="../privacy/">Privacy Policy</a>
+    </nav>
+    <h1>Support</h1>
+    <p class="lead">Help page for Retro Goat Rampage on iPhone.</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="quick-help-title">
+      <h2 id="quick-help-title">Quick Help</h2>
+      <ul>
+        <li>If touch controls do not respond correctly, fully close the app and open it again.</li>
+        <li>If a level feels stuck after pausing or backgrounding the app, restart the level from the pause menu.</li>
+        <li>If performance drops, close other heavy apps and make sure Low Power Mode is not limiting gameplay.</li>
+        <li>For the best experience, use an iPhone running iOS 18.5 or later.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="gameplay-title">
+      <h2 id="gameplay-title">Gameplay Tips</h2>
+      <ul>
+        <li>Build momentum before horn attacks to hit sheep harder.</li>
+        <li>Use tongue swings to cross wide gaps instead of relying only on jumps.</li>
+        <li>Power-ups are limited, so save stronger tools for dense enemy groups or boss phases.</li>
+        <li>Bosses change their attack patterns as the campaign moves from farms to the city tower.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>If you need help with a crash, level issue, purchase concern, or App Store listing problem, include your iPhone model, iOS version, app version, build number, and a short description of what happened.</p>
+      <div class="note">
+        The app does not require an account and does not collect personal gameplay data. Do not send sensitive personal information in support requests.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Last updated: May 20, 2026.</span>
+    <span><a href="../">Marketing Page</a> · <a href="../privacy/">Privacy Policy</a></span>
+  </footer>
+</body>
+</html>
